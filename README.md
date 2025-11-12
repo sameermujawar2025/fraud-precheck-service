@@ -21,14 +21,14 @@ application.yml and pom.xml
 
 Copy files into a Maven project (artifactId: fraud-precheck-service) and run.
 
-# 🧭 Fraud Precheck Service
+# Fraud Precheck Service
 
 The **Fraud Precheck Service** is the **entry point** of the [Fraud Detection Platform](https://github.com/fraud-detection-platform).  
 It receives transaction requests, performs validations, enriches input data, and routes clean transactions to the **Rule Engine Service** for fraud scoring.
 
 ---
 
-## ⚙️ Key Responsibilities
+## Key Responsibilities
 
 - Validate incoming transaction payloads
 - Perform lightweight risk checks (e.g., missing fields, merchant status)
@@ -37,7 +37,7 @@ It receives transaction requests, performs validations, enriches input data, and
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 
 | Component | Technology |
 |------------|-------------|
@@ -49,7 +49,7 @@ It receives transaction requests, performs validations, enriches input data, and
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 | Endpoint | Method | Description |
 |-----------|---------|-------------|
