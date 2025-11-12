@@ -1,6 +1,26 @@
 # fraud-precheck-service
 Entry point for all transactions. Performs initial data validation and routing to the Rule Engine. Part of the Fraud Detection Platform.
 
+This document contains a runnable skeleton layout and copy-pasteable files for the fraud-precheck-service. It follows SOLID and Clean Architecture and includes:
+
+Non-blocking WebFlux controller
+
+IngestionService orchestration
+
+RuleEngineClient (WebClient)
+
+GlobalExceptionHandler
+
+Configs: ServiceUrlConfig, WebClientConfig, KafkaProducerConfig (optional)
+
+ApplicationConstants and TraceIdUtil
+
+DTOs (PrecheckRequest, DecisionResponse)
+
+application.yml and pom.xml
+
+Copy files into a Maven project (artifactId: fraud-precheck-service) and run.
+
 # 🧭 Fraud Precheck Service
 
 The **Fraud Precheck Service** is the **entry point** of the [Fraud Detection Platform](https://github.com/fraud-detection-platform).  
