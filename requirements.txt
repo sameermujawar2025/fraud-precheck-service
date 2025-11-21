@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+motor  # async Mongo client
+python-dotenv
+python-dateutil
+pymongo
+
